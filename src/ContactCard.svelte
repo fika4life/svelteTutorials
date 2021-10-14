@@ -15,6 +15,11 @@
         border-radius: 6px;
     }
     .thumb{
+        background-color: black;
+    }
+
+    .thumb-placeholder{
+        background: #ccc;
     }
 
     .thumb img {
@@ -26,7 +31,7 @@
 
 <div class='card'>
     <header>
-        <div class="thumb">
+        <div class="thumb" class:thumb-placeholder="{!imgUrl}">
             <img src="{imgUrl}" alt="">
         </div>
       <div class='user-data'>
